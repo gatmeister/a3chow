@@ -350,7 +350,7 @@ header .navbar-custom .navbar-brand {
 	width: 100%;
 	padding: 60px 0 0 0;	
 	text-align: center;
-	background: url(../images/bg-calculate-bmi.png) no-repeat center center;
+	/*background: url(../images/bxg-calculate-bmi.png) no-repeat center center;*/
 	background-size: cover;
 	background: #000;
 }
