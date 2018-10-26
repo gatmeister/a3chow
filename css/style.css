@@ -352,6 +352,7 @@ header .navbar-custom .navbar-brand {
 	text-align: center;
 	background: url(../images/bg-calculate-bmi.png) no-repeat center center;
 	background-size: cover;
+	background: #000;
 }
 .calculate-bmi .title {
 	display: block;
