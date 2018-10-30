@@ -243,6 +243,7 @@ header .navbar-custom .navbar-brand {
 	text-transform: uppercase;
 	color: #ffffff;
 	background: rgba(0,0,0,0.75);
+	/*background: #1C086E;*/
 }
 .home-banner .info .button-container {
 	display: block;
@@ -352,7 +353,8 @@ header .navbar-custom .navbar-brand {
 	text-align: center;
 	/*background: url(../images/bxg-calculate-bmi.png) no-repeat center center;*/
 	background-size: cover;
-	background: #000;
+	background: rgba(0,0,0,0.75);
+
 }
 .calculate-bmi .title {
 	display: block;
@@ -527,7 +529,7 @@ footer {
 	display: block;
 	width: 100%;
 	padding: 60px 0;
-	background: #000000;	
+	background: #1C086E;
 }
 footer .logo {
 	display: block;
@@ -655,6 +657,9 @@ footer .subscribe .btn {
         height: 90px;
         background: #000000;
     }
+    header .container{
+        background: #fff;
+    }
 	header .logo {
 		display: none;	
 	}
@@ -687,7 +692,7 @@ footer .subscribe .btn {
     }
 	header .navbar-custom .navbar-brand {
 		padding: 0px;
-		margin: 35px 0;
+		/*margin: 35px 0;*/
 		height: auto;		
 	}
 	.home-banner .info .title {
