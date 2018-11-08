@@ -479,7 +479,6 @@ header .navbar-custom .navbar-brand {
 .home-staff .staff > ul > li > .item {
 	display: block;
 	width: 100%;
-	border: 1px solid #cccccc;
 }
 .home-staff .staff > ul > li > .item > .imagebox {
 	display: block;
