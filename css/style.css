@@ -309,6 +309,7 @@ header .navbar-custom .navbar-brand {
 }
 .home-services .services ul li .item img { 
 	width: 100%;
+	min-height: 380px;
 }
 .home-services .services ul li .item .item-content {
 	position: absolute;
@@ -344,45 +345,54 @@ header .navbar-custom .navbar-brand {
   	bottom: 0;
 }
 
-/* #Calculate BMI
 ================================================== */
-.calculate-bmi {
+.send-resume {
 	display: block;
 	width: 100%;
 	padding: 60px 0 0 0;	
 	text-align: center;
-	/*background: url(../images/bxg-calculate-bmi.png) no-repeat center center;*/
 	background-size: cover;
 	background: rgba(0,0,0,0.75);
 
 }
-.calculate-bmi .title {
+.send-resume .title {
 	display: block;
 	width: 100%;
 	padding: 0 0 15px 0;	
 }
-.calculate-bmi .title h1 {
+.send-resume .title h1 {
 	text-transform: uppercase;
-	color: #ffffff;	
+	text-align: center;
 }
-.calculate-bmi .small-border {	
+.send-resume .small-border {	
 	width: 10%;
 }
-.calculate-bmi .info {
+.send-resume .info {
 	display: block;
 	width: 100%;	
 }
-.calculate-bmi .info .imagebox {
+.send-resume .info .button-container .btn {
+	padding: 6px 36px;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: #fc5a02;
+	border: 1px solid #fc5a02;
+	border-radius: 0px;	
+	margin-top: 45px;
+}
+.send-resume .info .imagebox {
 	display: block;
 	width: 100%;
 	margin: 0 0 -30px 0;
 }
-.calculate-bmi .info .bmi-form {
+.send-resume .info .resume-form {
 	display: block;
 	width: 100%;	
 	padding: 120px 0 0 0;
 }
-.calculate-bmi .info .bmi-form .form-control {
+.send-resume .info .resume-form .form-control {
 	font-weight: 700;
 	color: #ffffff;
 	border: 1px solid #ffffff;
@@ -390,7 +400,7 @@ header .navbar-custom .navbar-brand {
 	box-shadow: none;
 	background: none;
 }
-.calculate-bmi .info .bmi-form select.form-control {
+.send-resume .info .resume-form select.form-control {
 	-webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
@@ -401,17 +411,17 @@ header .navbar-custom .navbar-brand {
 	border: 1px solid #fc5a02;
 	cursor: pointer;
 }
-.calculate-bmi .info .bmi-form .form-control::-moz-placeholder {
+.send-resume .info .resume-form .form-control::-moz-placeholder {
 	color: #ffffff;
 	opacity: 1;
 }
-.calculate-bmi .info .bmi-form .form-control:-ms-input-placeholder {
+.send-resume .info .resume-form .form-control:-ms-input-placeholder {
 	color: #ffffff;
 }
-.calculate-bmi .info .bmi-form .form-control::-webkit-input-placeholder {
+.send-resume .info .resume-form .form-control::-webkit-input-placeholder {
 	color: #ffffff;
 }
-.calculate-bmi .info .bmi-form .btn {
+.send-resume .info .resume-form .btn {
 	display: block;
 	width: 100%;
 	padding: 6px 0;
@@ -425,83 +435,83 @@ header .navbar-custom .navbar-brand {
 
 /* #Home Trainers
 ================================================== */
-.home-trainers {
+.home-staff {
 	display: block;
 	width: 100%;
 	padding: 60px 0;	
 	text-align: center;
 }
-.home-trainers .title {
+.home-staff .title {
 	display: block;
 	width: 100%;
 	padding: 0 0 15px 0;	
 }
-.home-trainers .title h1 {
+.home-staff .title h1 {
 	text-transform: uppercase;
 }
-.home-trainers .small-border {	
+.home-staff .small-border {	
 	width: 10%;
 }
-.home-trainers .info {
+.home-staff .info {
 	display: block;
 	width: 100%;
 	padding: 0 0 45px 0;	
 }
-.home-trainers .info p:last-child {
+.home-staff .info p:last-child {
 	margin: 0;
 }
-.home-trainers .trainers {
+.home-staff .staff {
 	display: block;
 	width: 100%;	
 }
-.home-trainers .trainers > ul {
+.home-staff .staff > ul {
 	margin: 0 0 0 -2%;
 	font-size: 0px;
 	letter-spacing: -4px;	
 }
-.home-trainers .trainers > ul > li {
+.home-staff .staff > ul > li {
 	display: inline-block;
 	width: 23%;
 	margin: 0 0 0 2%;		
 	font-size: 14px;
 	letter-spacing: normal;
 }
-.home-trainers .trainers > ul > li > .item {
+.home-staff .staff > ul > li > .item {
 	display: block;
 	width: 100%;
 	border: 1px solid #cccccc;
 }
-.home-trainers .trainers > ul > li > .item > .imagebox {
+.home-staff .staff > ul > li > .item > .imagebox {
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid #cccccc;	
 }	
-.home-trainers .trainers > ul > li > .item > .item-content {
+.home-staff .staff > ul > li > .item > .item-content {
 	display: block;
 	width: 100%;
 	padding: 15px;
 	text-align: left;
 }
-.home-trainers .trainers > ul > li > .item > .item-content h4 {
+.home-staff .staff > ul > li > .item > .item-content h4 {
 	padding: 0 0 5px 0;
 	text-transform: uppercase;	
 	text-align: center;
 }
-.home-trainers .trainers > ul > li > .item > .item-content p {
+.home-staff .staff > ul > li > .item > .item-content p {
 	text-transform: uppercase;	
 }
-.home-trainers .trainers > ul > li > .item > .item-content ul.item-social {
+.home-staff .staff > ul > li > .item > .item-content ul.item-social {
 	margin: 0 0 0 -2%;
 	font-size: 0px;
 	letter-spacing: -4px;
 }
-.home-trainers .trainers > ul > li > .item > .item-content ul.item-social li {
+.home-staff .staff > ul > li > .item > .item-content ul.item-social li {
 	display: inline-block;
 	margin: 0 0 0 2%;		
 	font-size: 14px;
 	letter-spacing: normal;
 }
-.home-trainers .trainers > ul > li > .item > .item-content ul.item-social li a {
+.home-staff .staff > ul > li > .item > .item-content ul.item-social li a {
 	display: block;
 	width: 32px;
 	height: 32px;
@@ -510,16 +520,16 @@ header .navbar-custom .navbar-brand {
 	color: #ffffff;
 	border-radius: 50%;
 }
-.home-trainers .trainers > ul > li > .item > .item-content ul.item-social li.facebook a {
+.home-staff .staff > ul > li > .item > .item-content ul.item-social li.facebook a {
 	background: #3b5998;
 }
-.home-trainers .trainers > ul > li > .item > .item-content ul.item-social li.twitter a {
+.home-staff .staff > ul > li > .item > .item-content ul.item-social li.twitter a {
 	background: #55acee;
 }
-.home-trainers .trainers > ul > li > .item > .item-content ul.item-social li.dribbble a {
+.home-staff .staff > ul > li > .item > .item-content ul.item-social li.dribbble a {
 	background: #ea4c89;
 }
-.home-trainers .trainers > ul > li > .item > .item-content ul.item-social li.youtube a {
+.home-staff .staff > ul > li > .item > .item-content ul.item-social li.youtube a {
 	background: #bb0000;
 }
 
@@ -640,10 +650,10 @@ footer .subscribe .btn {
 	.home-services .services ul li {
 		width: 50%;	
 	}
-	.calculate-bmi .info .bmi-form {
+	.send-resume .info .resume-form {
 		padding: 60px 0 0 0;	
 	}
-	.home-trainers .trainers > ul > li {
+	.home-staff .staff > ul > li {
 		width: 48%;
 		margin: 0 0 2% 2%;	
 	}
@@ -706,13 +716,13 @@ footer .subscribe .btn {
 	.home-services .services ul li {
 		width: 100%;	
 	}
-	.calculate-bmi .info .bmi-form {
+	.send-resume .info .resume-form {
 		padding: 60px 0;	
 	}
-	.home-trainers .trainers > ul {
+	.home-staff .staff > ul {
 		margin: 0;
 	}
-	.home-trainers .trainers > ul > li {
+	.home-staff .staff > ul > li {
 		display: block;
 		width: 100%;
 		margin: 0 0 15px 0;		
